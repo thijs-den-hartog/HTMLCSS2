@@ -3,6 +3,11 @@
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+
+}
+
+body{
+  overflow: hidden;
 }
 
 /*------------ bovenkant -------------*/
@@ -13,18 +18,29 @@ header{
 }
 
 .hallotekst{
+  position: absolute;
   font-size: 100px;
   font-family: roboto;
   font-weight: bold;
-  padding-top: 40vh;
+  padding-top: 38vh;
   padding-left: 13%;
 }
 
 .thijstekst{
+  position: absolute;
   font-size: 100px;
   font-family: roboto;
   font-weight: bold;
-  padding-top: 0vh;
+  padding-top: 50vh;
   padding-left: 13%;
+}
+
+.hoofdfoto{
+  position: absolute;
+  padding-left: 72%;
+  padding-top: -10%;
+  height: 100vh;
+
+
 }
 /* --------- eindbovenkant ----------- */
