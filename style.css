@@ -7,7 +7,7 @@
 }
 
 body{
-
+  overflow-x: hidden;
 }
 
 /*------------ bovenkant -------------*/
@@ -55,14 +55,26 @@ h1{
 
 .introarticle{
   position: absolute;
-  width: 60%;
+  width: 100%;
+  height: 100vh;
   margin-top: 10vh;
   margin-left: 10%;
 }
 
-.introtekst{
+.introtekst1{
+  position: absolute;
   padding-top: 2vh;
-  width: 40%;
+  width: 35%;
+  font-family: roboto;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.introtekst2{
+  position: absolute;
+  padding-top: 2vh;
+  padding-left: 45%;
+  width: 80%;
   font-family: roboto;
   font-weight: normal;
   font-size: 20px;
