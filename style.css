@@ -45,7 +45,7 @@ header{
 }
 /* --------- eindbovenkant ----------- */
 
-/* ---------- wie ben ik --------------*/
+/*------------------ titels--------------- */
 
 
 h1{
@@ -61,6 +61,9 @@ h1:after {
   width: 1500px;
   border-bottom: 16px solid #CDD5CA;
 }
+
+/*------------------ einde titels--------------- */
+/* ---------- wie ben ik --------------*/
 
 .introarticle{
   position: absolute;
@@ -87,4 +90,15 @@ h1:after {
   font-family: roboto;
   font-weight: normal;
   font-size: 20px;
+}
+
+/* ---------- einde wie ben ik --------------*/
+
+/* -------------- project1 -------------------*/
+
+.project1{
+  background-color: #F8F8F8;
+  width: 100%;
+  height: 50vh;
+  margin-top: 80vh;
 }
