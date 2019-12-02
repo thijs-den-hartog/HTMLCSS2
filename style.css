@@ -7,7 +7,7 @@
 }
 
 body{
-  overflow: hidden;
+
 }
 
 /*------------ bovenkant -------------*/
@@ -44,3 +44,26 @@ header{
 
 }
 /* --------- eindbovenkant ----------- */
+
+/* ---------- wie ben ik --------------*/
+
+h1{
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.introarticle{
+  position: absolute;
+  width: 60%;
+  margin-top: 10vh;
+  margin-left: 10%;
+}
+
+.introtekst{
+  padding-top: 2vh;
+  width: 40%;
+  font-family: roboto;
+  font-weight: normal;
+  font-size: 20px;
+}
