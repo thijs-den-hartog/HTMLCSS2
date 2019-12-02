@@ -4,3 +4,10 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+
+header{
+  background-color: #CDD5CA;
+  width: 100%;
+  height: 100vh;
+}
