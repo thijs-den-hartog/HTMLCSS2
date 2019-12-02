@@ -47,10 +47,19 @@ header{
 
 /* ---------- wie ben ik --------------*/
 
+
 h1{
   font-family: roboto;
   font-weight: bold;
   font-size: 40px;
+}
+
+h1:after {
+  position: absolute;
+  margin: 55px -205px;
+  content:"";
+  width: 1500px;
+  border-bottom: 16px solid #CDD5CA;
 }
 
 .introarticle{
@@ -61,20 +70,20 @@ h1{
   margin-left: 10%;
 }
 
-.introtekst1{
+.introtekstblok1{
   position: absolute;
-  padding-top: 2vh;
-  width: 35%;
+  padding-top: 4vh;
+  width: 30%;
   font-family: roboto;
   font-weight: normal;
   font-size: 20px;
 }
 
-.introtekst2{
+.introtekstblok2{
   position: absolute;
-  padding-top: 2vh;
-  padding-left: 45%;
-  width: 80%;
+  padding-top: 4vh;
+  padding-left: 35%;
+  width: 65%;
   font-family: roboto;
   font-weight: normal;
   font-size: 20px;
