@@ -63,23 +63,35 @@ h1:after {
 }
 
 /*------------------ einde titels--------------- */
+/* teksten */
+
+p{
+  font-family: roboto;
+  font-weight: normal;
+  font-size: 20px;
+}
+/* einde teksten */
 /* ---------- wie ben ik --------------*/
 
-.introarticle{
-  position: absolute;
+article{
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   margin-top: 10vh;
-  margin-left: 10%;
+  padding-top: 10vh;
+  padding-left: 10%;
+}
+
+article:nth-child(odd) {
+  background-color: #F8F8F8;
 }
 
 .introtekstblok1{
   position: absolute;
   padding-top: 4vh;
   width: 30%;
-  font-family: roboto;
+  /* font-family: roboto;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 20px; */
 }
 
 .introtekstblok2{
@@ -87,18 +99,17 @@ h1:after {
   padding-top: 4vh;
   padding-left: 35%;
   width: 65%;
-  font-family: roboto;
-  font-weight: normal;
-  font-size: 20px;
 }
 
 /* ---------- einde wie ben ik --------------*/
 
 /* -------------- project1 -------------------*/
 
-.project1{
-  background-color: #F8F8F8;
-  width: 100%;
-  height: 50vh;
-  margin-top: 80vh;
+
+
+
+
+.project1beschrijving{
+  padding-top: 5vh;
+  width: 30%;
 }
