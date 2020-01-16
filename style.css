@@ -132,4 +132,14 @@ footer{
 
 /* ---------- einde wie ben ik --------------*/
 
-/* -------------- project1 -------------------*/
+
+/* -------------- contact -------------------*/
+
+.contact{
+  background-color: #F8F8F8;
+  margin-top: 88px;
+  margin-bottom: -30px;
+  margin-left: 4%;
+  height: 80vh;
+  width: 40%;
+}
