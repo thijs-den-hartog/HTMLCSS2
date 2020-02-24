@@ -72,7 +72,7 @@ h2{
 h2::after{
   position: absolute;
   margin: 55px -205px;
-  margin-left: -8%;
+  margin-left: -6%;
   content:"";
   width: 30%;
   border-bottom: 16px solid #CDD5CA;
@@ -129,6 +129,13 @@ footer{
   padding-left: 35%;
   width: 65%;
 }
+
+.project2beschrijving{
+  margin-left: 65%;
+
+}
+
+
 
 /* ---------- einde wie ben ik --------------*/
 
